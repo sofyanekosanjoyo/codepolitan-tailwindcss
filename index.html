@@ -11,6 +11,11 @@
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <style>
+      .gradient {
+        background-image: linear-gradient(to bottom right, #4c51bf, #702459);
+      }
+    </style>
 
     <link rel="stylesheet" type="text/css" href="output.css" />
 
@@ -76,7 +81,34 @@
         </div>
       </nav>
     </section>
-    <section class="w-screen mx-auto py-4 bg-indigo-700 h-32">About me</section>
+
+    <!-- Navigation About Me -->
+    <section class="w-screen mx-auto py-4 gradient">
+      <div class="px-16 py-8 text-center text-white">
+        <h1 class="w-full text-5xl font-bold">About Me</h1>
+        <div class="mb-4">
+          <div class="bg-pink-500 w-1/4 opacity-75 rounded h-1 mx-auto"></div>
+        </div>
+        <h2 class="text-3xl font-bold mb-2">
+          Hai saya Sofyan Eko Sanjoyo. Senang berjumpa dengan Anda.
+        </h2>
+        <h3 class="text-lg mb-2">
+          Saya seorang programmer dan juga analis, selain membuat aplikasi
+          menggunakan bahasa pemrograman, saya juga bisa merancang suatu sistem
+          yang dibutuhkan user.
+        </h3>
+        <div class="w-full">
+          <div class="px-4 py-4">
+            <img
+              src="images/sofyan-profil-1.png"
+              alt=""
+              class="shadow-lg rounded-full max-w-full mx-auto text-center w-48"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="w-screen mx-auto py-4 bg-white h-32">
       Skill Framework
     </section>
