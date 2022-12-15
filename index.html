@@ -65,15 +65,16 @@
               >About Me</a
             >
             <a
-              href="#recent"
-              class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4"
-              >Recent Work</a
-            >
-            <a
               href="#skill"
               class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4"
               >Skill Framework</a
             >
+            <a
+              href="#recent"
+              class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4"
+              >Recent Work</a
+            >
+
             <a
               href="#contact"
               class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4"
@@ -83,7 +84,7 @@
 
           <div>
             <a
-              href="#"
+              href="#contact"
               class="inline-block text-sm px-4 py-2 rounded text-gray-600 border border-gray-600 hover:border-transparent hover:text-white hover:bg-indigo-700 mt-4 lg:mt-0"
               >Contact Me</a
             >
@@ -93,7 +94,7 @@
     </section>
 
     <!-- Navigation About Me -->
-    <section class="w-screen mx-auto py-4 gradient">
+    <section id="about" class="w-screen mx-auto py-4 gradient">
       <div class="px-16 py-8 text-center text-white">
         <h1 class="w-full text-5xl font-bold">About Me</h1>
         <div class="mb-4">
@@ -202,7 +203,7 @@
     </section>
 
     <!-- Menu Navigation Skill Framework -->
-    <section class="container mx-auto py-4 px-4 bg-white">
+    <section id="skill" class="container mx-auto py-4 px-4 bg-white">
       <div class="flex flex-wrap">
         <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
           <img
@@ -250,7 +251,7 @@
     </section>
 
     <!-- Menu Navigasi Recent work -->
-    <section class="w-screen mx-auto py-8 bg-gray-200">
+    <section id="recent" class="w-screen mx-auto py-8 bg-gray-200">
       <div class="text-center mb-8">
         <h1 class="w-full my-2 text-5xl font-bold text-gray-700">
           My Recent Work
@@ -372,7 +373,7 @@
     </section>
 
     <!-- Menu Navigasi Contact Me -->
-    <section class="w-screen mx-auto py-4 gradient-bottom">
+    <section id="contact" class="w-screen mx-auto py-4 gradient-bottom">
       <h1 class="w-full my-2 text-5xl font-bold text-center text-white">
         Contact me
       </h1>
@@ -437,6 +438,21 @@
     </section>
 
     <!-- Menu Navigasi Footer -->
-    <section class="w-screen mx-auto py-4 bg-white h-32">Footer</section>
+    <section class="w-screen mx-auto py-4 bg-white mt-8 mb-8">
+      <div class="text-center">
+        <a href="#" class="text-indigo-700 hover:text-indigo-900 p-2">
+          <i class="fa-2x fab fa-facebook"></i>
+        </a>
+        <a href="#" class="text-indigo-700 hover:text-indigo-900 p-2">
+          <i class="fa-2x fab fa-twitter"></i>
+        </a>
+        <a href="#" class="text-indigo-700 hover:text-indigo-900 p-2">
+          <i class="fa-2x fab fa-instagram"></i>
+        </a>
+      </div>
+      <div class="text-center mt-4 text-gray-600">
+        Designed with Tailwindcss. Copyright &copy Sofyan Eko Sanjoyo 2022
+      </div>
+    </section>
   </body>
 </html>
